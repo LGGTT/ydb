@@ -9,6 +9,7 @@ import java.net.URL;
 @Slf4j
 public final class HttpUtils {
 
+
     static final String POST = "POST";
     static final String GET = "GET";
     static final int CONN_TIMEOUT = 30000;// ms
