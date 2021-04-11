@@ -8,6 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan("com.lggtt")
 public class ServiceSMSApplication {
     public static void main(String[] args) {
+
         SpringApplication.run(ServiceSMSApplication.class,args);
     }
 }
