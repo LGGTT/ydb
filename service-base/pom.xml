@@ -23,11 +23,7 @@
            <groupId>io.springfox</groupId>
            <artifactId>springfox-swagger2</artifactId>
        </dependency>
-       <!-- swagger ui 接口文档页面 -->
-<!--       <dependency>-->
-<!--           <groupId>io.springfox</groupId>-->
-<!--           <artifactId>springfox-swagger-ui</artifactId>-->
-<!--       </dependency>-->
+
        <dependency>
            <groupId>com.github.xiaoymin</groupId>
            <artifactId>swagger-bootstrap-ui</artifactId>
