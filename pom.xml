@@ -44,6 +44,7 @@
 		<httpclient.version>4.5.1</httpclient.version>
 	</properties>
 
+
 	<dependencyManagement>
 	<dependencies>
 		<!--Spring Cloud-->
