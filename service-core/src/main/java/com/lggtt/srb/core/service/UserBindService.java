@@ -1,7 +1,10 @@
 package com.lggtt.srb.core.service;
 
-import com.lggtt.srb.core.entity.UserBind;
+import com.lggtt.srb.core.pojo.entity.UserBind;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.lggtt.srb.core.pojo.vo.UserBindVO;
+
+import java.util.Map;
 
 /**
  * <p>
@@ -13,4 +16,9 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface UserBindService extends IService<UserBind> {
 
+    String commitBindUser(UserBindVO userBindVO, Long userId);
+
+    void callback(Map<String, Object> params);
+
+    String getBindCodeByUserId(Long userId);
 }

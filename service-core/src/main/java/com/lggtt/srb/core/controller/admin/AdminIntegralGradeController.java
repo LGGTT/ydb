@@ -1,7 +1,7 @@
 package com.lggtt.srb.core.controller.admin;
 
 
-import com.lggtt.srb.core.entity.IntegralGrade;
+import com.lggtt.srb.core.pojo.entity.IntegralGrade;
 import com.lggtt.srb.core.service.IntegralGradeService;
 import com.lggtt.srb.exception.Assert;
 import com.lggtt.srb.result.R;

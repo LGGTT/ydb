@@ -1,6 +1,6 @@
 package com.lggtt.srb.core.mapper;
 
-import com.lggtt.srb.core.entity.LendItemReturn;
+import com.lggtt.srb.core.pojo.entity.LendItemReturn;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

@@ -1,7 +1,10 @@
 package com.lggtt.srb.core.mapper;
 
-import com.lggtt.srb.core.entity.Dict;
+import com.lggtt.srb.core.pojo.entity.Dict;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.lggtt.srb.core.pojo.dto.ExcelDictDto;
+
+import java.util.List;
 
 /**
  * <p>
@@ -13,4 +16,5 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  */
 public interface DictMapper extends BaseMapper<Dict> {
 
+    void insertList(List<ExcelDictDto> list);
 }

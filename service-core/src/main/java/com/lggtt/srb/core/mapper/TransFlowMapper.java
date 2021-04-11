@@ -1,6 +1,6 @@
 package com.lggtt.srb.core.mapper;
 
-import com.lggtt.srb.core.entity.TransFlow;
+import com.lggtt.srb.core.pojo.entity.TransFlow;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

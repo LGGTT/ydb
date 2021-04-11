@@ -1,6 +1,6 @@
 package com.lggtt.srb.core.mapper;
 
-import com.lggtt.srb.core.entity.UserLoginRecord;
+import com.lggtt.srb.core.pojo.entity.UserLoginRecord;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

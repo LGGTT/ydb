@@ -74,7 +74,7 @@
 
     <!-- 开发环境和测试环境 -->
     <springProfile name="dev,test">
-        <logger name="com.lggtt" level="INFO">
+        <logger name="com.lggtt" level="DEBUG">
             <appender-ref ref="CONSOLE" />
             <appender-ref ref="FILE" />
         </logger>

@@ -1,6 +1,6 @@
 package com.lggtt.srb.core.service.impl;
 
-import com.lggtt.srb.core.entity.UserIntegral;
+import com.lggtt.srb.core.pojo.entity.UserIntegral;
 import com.lggtt.srb.core.mapper.UserIntegralMapper;
 import com.lggtt.srb.core.service.UserIntegralService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

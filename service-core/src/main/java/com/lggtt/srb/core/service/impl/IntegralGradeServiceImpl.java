@@ -1,6 +1,6 @@
 package com.lggtt.srb.core.service.impl;
 
-import com.lggtt.srb.core.entity.IntegralGrade;
+import com.lggtt.srb.core.pojo.entity.IntegralGrade;
 import com.lggtt.srb.core.mapper.IntegralGradeMapper;
 import com.lggtt.srb.core.service.IntegralGradeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;

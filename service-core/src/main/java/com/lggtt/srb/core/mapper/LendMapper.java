@@ -1,6 +1,6 @@
 package com.lggtt.srb.core.mapper;
 
-import com.lggtt.srb.core.entity.Lend;
+import com.lggtt.srb.core.pojo.entity.Lend;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
